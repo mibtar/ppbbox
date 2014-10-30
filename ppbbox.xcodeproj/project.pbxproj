@@ -14,6 +14,10 @@
 		8E4CA3DA19FF4275002125B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CA3D919FF4275002125B4 /* Images.xcassets */; };
 		8E4CA3DD19FF4275002125B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CA3DB19FF4275002125B4 /* LaunchScreen.xib */; };
 		8E4CA3E919FF4275002125B4 /* ppbboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CA3E819FF4275002125B4 /* ppbboxTests.swift */; };
+		8E4CA3F319FF4387002125B4 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CA3F219FF4387002125B4 /* ProductModel.swift */; };
+		8E4CA3F619FF44E8002125B4 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CA3F519FF44E8002125B4 /* InventoryViewController.swift */; };
+		8E4CA3F919FF459A002125B4 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CA3F719FF459A002125B4 /* ProductCell.swift */; };
+		8E4CA3FA19FF459A002125B4 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CA3F819FF459A002125B4 /* ProductCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		8E4CA3E219FF4275002125B4 /* ppbboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ppbboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4CA3E719FF4275002125B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E4CA3E819FF4275002125B4 /* ppbboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ppbboxTests.swift; sourceTree = "<group>"; };
+		8E4CA3F219FF4387002125B4 /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		8E4CA3F519FF44E8002125B4 /* InventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		8E4CA3F719FF459A002125B4 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		8E4CA3F819FF459A002125B4 /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +87,14 @@
 		8E4CA3CC19FF4275002125B4 /* ppbbox */ = {
 			isa = PBXGroup;
 			children = (
+				8E4CA3F419FF44C1002125B4 /* inventory */,
 				8E4CA3CF19FF4275002125B4 /* AppDelegate.swift */,
 				8E4CA3D419FF4275002125B4 /* ViewController.swift */,
 				8E4CA3D619FF4275002125B4 /* Main.storyboard */,
 				8E4CA3D919FF4275002125B4 /* Images.xcassets */,
 				8E4CA3DB19FF4275002125B4 /* LaunchScreen.xib */,
 				8E4CA3D119FF4275002125B4 /* ppbbox.xcdatamodeld */,
+				8E4CA3F219FF4387002125B4 /* ProductModel.swift */,
 				8E4CA3CD19FF4275002125B4 /* Supporting Files */,
 			);
 			path = ppbbox;
@@ -113,6 +123,16 @@
 				8E4CA3E719FF4275002125B4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E4CA3F419FF44C1002125B4 /* inventory */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CA3F519FF44E8002125B4 /* InventoryViewController.swift */,
+				8E4CA3F719FF459A002125B4 /* ProductCell.swift */,
+				8E4CA3F819FF459A002125B4 /* ProductCell.xib */,
+			);
+			name = inventory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E4CA3D819FF4275002125B4 /* Main.storyboard in Resources */,
+				8E4CA3FA19FF459A002125B4 /* ProductCell.xib in Resources */,
 				8E4CA3DD19FF4275002125B4 /* LaunchScreen.xib in Resources */,
 				8E4CA3DA19FF4275002125B4 /* Images.xcassets in Resources */,
 			);
@@ -217,7 +238,10 @@
 			files = (
 				8E4CA3D519FF4275002125B4 /* ViewController.swift in Sources */,
 				8E4CA3D319FF4275002125B4 /* ppbbox.xcdatamodeld in Sources */,
+				8E4CA3F619FF44E8002125B4 /* InventoryViewController.swift in Sources */,
+				8E4CA3F919FF459A002125B4 /* ProductCell.swift in Sources */,
 				8E4CA3D019FF4275002125B4 /* AppDelegate.swift in Sources */,
+				8E4CA3F319FF4387002125B4 /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

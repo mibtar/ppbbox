@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  ppbbox
-//
-//  Created by Arthur Nilo Pangilinan on 10/28/14.
-//  Copyright (c) 2014 Arthur Nilo Pangilinan. All rights reserved.
-//
 
 import UIKit
 import CoreData
